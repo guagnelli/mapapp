@@ -1,13 +1,12 @@
 <resources>
     <string name="app_name">MapaApp</string>
-    <string name="escanear">Escanear</string>
-    <string name="usuario_demo">Antonio</string>
-    <string name="configuracion">Configuraciones</string>
-    <string name="about">Acerca de</string>
+    <string name="usuario_demo">José Antonio Rodríguez Torres</string>
     <string name="inicio">Inicio</string>
+    <string name="acerca">Acerca de ...</string>
+    <string name="escanear">Registrar producto</string>
     <string name="descripcion_producto">Descripción</string>
     <string name="nombre_producto">Nombre</string>
     <string name="guardar">Guardar</string>
     <string name="code_demo">CODE</string>
-    <string name="inventario">Ver Inventario</string>
+    <string name="title_activity_store">Map</string>
 </resources>

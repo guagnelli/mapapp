@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import fca.unam.mx.mapaapp.About;
 import fca.unam.mx.mapaapp.InventarioActivity;
 import fca.unam.mx.mapaapp.MainActivity;
 import fca.unam.mx.mapaapp.R;
@@ -38,11 +39,11 @@ public class NavigationActivity extends MapaApp {
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
 
                         switch (menuItem.getItemId()) {
-                            case R.id.item_inicio:
+                            case R.id.menu_inicio:
                                 startActivity(new Intent(NavigationActivity.this, MainActivity.class));
                                 break;
-                            case R.id.item_inventario:
-                                startActivity(new Intent(NavigationActivity.this, InventarioActivity.class));
+                            case R.id.menu_acerca:
+                                startActivity(new Intent(NavigationActivity.this, About.class));
                                 break;
                             default:
                                 break;

@@ -54,4 +54,16 @@ public class Inventario {
                 ", longitud='" + longitud + '\'' +
                 '}';
     }
+
+    public Producto getProduct(){
+        return this.producto;
+    }
+
+    public String getLatitud(){
+        return this.latitud;
+    }
+
+    public String getLongitud(){
+        return this.longitud;
+    }
 }
